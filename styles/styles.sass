@@ -1,0 +1,89 @@
+$primary-color: hsl(225, 100%, 94%)
+$primary-second-color: hsl(245, 75%, 52%)
+
+html
+    height: 100%
+    
+body 
+    background: $primary-color url('/images/pattern-background-desktop.svg') center no-repeat
+    background-size: cover
+    font-family: 'Red Hat Display', sans-serif
+    height: 100%
+
+p
+    font-size: 16px
+
+a
+    color: $primary-second-color
+    transition: .4s
+    &:hover
+        opacity: .8
+
+.wrapper
+    position: relative
+    top: 50%
+    transform: translateY(-50%)
+
+.card
+    background: white
+    border-radius: 15px
+    max-width: 400px
+    margin: auto
+    -webkit-box-shadow: 0px 10px 15px -8px rgba(56,41,224,0.62)
+    box-shadow: 0px 10px 15px -8px rgba(56,41,224,0.62)
+    .head-image
+        background: url('/images/illustration-hero.svg') center no-repeat
+        background-size: cover
+        height: 200px
+        width: 100%
+        border-radius: 15px 15px 0 0
+    .content 
+        padding: 30px
+        .header
+            font-weight: 900
+            text-align: center
+            font-size: 23px
+            color: hsl(223, 47%, 23%)
+        p
+            text-align: center
+            font-weight: 500
+            color: hsl(224, 23%, 55%)
+        .plan
+            background-color: hsl(225, 100%, 98%)
+            display: flex
+            padding: 10px
+            border-radius: 15px
+            div, a 
+                margin: auto
+            .image-plan
+                height: 48px
+            .name
+                font-weight: 900
+                color: hsl(223, 47%, 23%)
+            .price
+                font-weight: 500
+                color: hsl(224, 23%, 55%)
+                font-size: 14px
+        .button
+            width: 100%
+            text-align: center
+            padding: 10px 0
+            display: block
+            cursor: pointer
+            border-radius: 10px
+        .process
+            background-color: $primary-second-color
+            color: white
+            margin-top: 20px
+            transition: .4s
+            &:hover
+                background-color: hsl(223, 47%, 23%)
+        .cancel 
+            color: hsl(224, 23%, 55%)
+            margin-top: 15px
+            transition: .4s
+            &:hover
+                color: white
+                background-color: hsl(223, 47%, 23%)
+
+
