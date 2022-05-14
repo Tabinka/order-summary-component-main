@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #e0e8ff url("./images/pattern-background-desktop.svg") center no-repeat;
+  background: hsl(225deg, 100%, 94%) url("./images/pattern-background-desktop.svg") center no-repeat;
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
   height: 100%;
@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #3829e0;
+  color: hsl(245deg, 75%, 52%);
   transition: 0.4s;
 }
 a:hover {
@@ -36,7 +36,7 @@ a:hover {
   box-shadow: 0px 10px 15px -8px rgba(56, 41, 224, 0.62);
 }
 .card .head-image {
-  background: url("./images/illustration-hero.svg") center no-repeat;
+  background: url("/images/illustration-hero.svg") center no-repeat;
   background-size: cover;
   height: 200px;
   width: 100%;
@@ -49,15 +49,15 @@ a:hover {
   font-weight: 900;
   text-align: center;
   font-size: 23px;
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }
 .card .content p {
   text-align: center;
   font-weight: 500;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
 }
 .card .content .plan {
-  background-color: #f5f7ff;
+  background-color: hsl(225deg, 100%, 98%);
   display: flex;
   padding: 10px;
   border-radius: 15px;
@@ -70,11 +70,11 @@ a:hover {
 }
 .card .content .plan .name {
   font-weight: 900;
-  color: #1f2f56;
+  color: hsl(223deg, 47%, 23%);
 }
 .card .content .plan .price {
   font-weight: 500;
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   font-size: 14px;
 }
 .card .content .button {
@@ -86,22 +86,22 @@ a:hover {
   border-radius: 10px;
 }
 .card .content .process {
-  background-color: #3829e0;
+  background-color: hsl(245deg, 75%, 52%);
   color: white;
   margin-top: 20px;
   transition: 0.4s;
 }
 .card .content .process:hover {
-  background-color: #1f2f56;
+  background-color: hsl(223deg, 47%, 23%);
 }
 .card .content .cancel {
-  color: #7280a7;
+  color: hsl(224deg, 23%, 55%);
   margin-top: 15px;
   transition: 0.4s;
 }
 .card .content .cancel:hover {
   color: white;
-  background-color: #1f2f56;
+  background-color: hsl(223deg, 47%, 23%);
 }
 
 /*# sourceMappingURL=styles.css.map */
